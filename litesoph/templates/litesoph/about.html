@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+   <h1> About LITESOPH</h1>
+    <!-- <div class="col-md-10"> -->
+        <!-- <div class="card mb-2"> -->
+         <p>   
+            The toolkit is designed to serve  the needs of computational researchers interested in solar energy conversion applications (photovoltaics, water-splitting catalysts, solar fuels, etc.), opto-electronic materials, photochemistry and photobiology. It is built as a layer on top of existing grid-based time-dependent density-functional (TDDFT) codes such as OCTOPUS and GPAW and provides tools for the analysis of time-dependent electron densities, potentials, fields, as well as state populations. Our laser masking tool to create the local excitations will help the researchers to study the spatial and temporal dependence of excitations. This will aid researchers in the field to identify key features of candidate systems affecting the energy capture and conversion.
+        </p>   
+        <!-- </div> -->
+    <!-- </div> -->
+
+    <h1> Background </h1>
+    <p>
+            There is enormous interest in understanding photo-induced phenomena motivated by their applications in fields such
+            as photo-voltaics (PV), photo-catalysis, water-splitting catalysis and optoelectronic devices as well as
+            understanding the influence of solar radiation on living cells. For this it is essential to unravel the mechanisms of
+            light capture and conversion to chemical, structural or electrical responses in materials, the nature and dynamical
+            role of competing processes in the excited states, and most importantly the structural and chemical aspects of the
+            material that govern these excited state processes. While experimental techniques such as time-resolved
+            spectroscopy are extensively used for studying such phenomena, computational methods such as ground and excited
+            state electronic structure theory and molecular dynamics are beginning to provide essential complementary input to
+            the field. The combined insights from these techniques can not only help us understand the various processes that
+            ensue upon photo-excitation but also can prove extremely useful for the aforementioned applications. An example is
+            the case of modern PV devices. These work due to formation of excitons and their eventual charge-separation at
+            interfaces involved in these devices. The overall efficiency of a PV device depends heavily on the fate of these
+            excitons as they diffuse from the point of generation to the interfaces between electron and hole carrying materials
+            in the device. Charge traps, mid-gap states, varying material morphology, electron back-transfer, etc. can impede the
+            lifetime of the excitons and directly influence the incident photon to current conversion efficiencies of the device.
+            Thus, it is extremely important to understand the processes that exist in the excited state in these devices.
+        </p>
+
+        <p>
+            Theoretical tools to study the excited state of materials are still evolving, often being challenged by accuracy of the
+            methods employed and the computational expense involved in getting reliable results. Despite these challenges,
+            methods such as time-dependent density-functional theory (TDDFT), complete active space self-consistent field
+            (CASCF), and second-order perturbation theory on the complete active space (CASPT2) have been applied
+            increasingly to problems involving excited state dynamics. Of these, the TDDFT-based methods are particularly
+            appealing given their reduced computational cost and general applicability. Molecular dynamics in the photo-excited
+            state using TDDFT, often termed Real Time TDDFT (RT-TDDFT), is fast emerging as popular technique to study
+            excited state processes. The requirement of non-adiabatic dynamics is often met (to varying degrees of accuracy) by
+            two approaches: Ehrenfest molecular dynamics (EMD) and trajectory surface-hopping (SH). Each method has
+            its own advantages and limitations. However, a variety of applications of these methods have recently emerged in
+            problems of fundamental and technological interest.
+        </p>
+{% endblock %}   

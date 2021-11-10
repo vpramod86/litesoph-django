@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+   <h1>Resources</h1>
+   
+   <ul class="sub-menu">
+    <li class=" menu-item ">
+     <a  href="{% url 'faq' %}" > FAQ
+     </a>
+    </li>
+    <li class=" menu-item ">
+     <a  href="{% url 'manual' %}" >
+       Documentation
+     </a>
+    </li>
+    <li class=" menu-item ">
+     <a  href="{% url 'tutorials' %}" >
+       Tutorials
+     </a>
+    </li>
+    <li class=" menu-item ">
+     <a  href="{% url 'tools' %}" >
+      Tools
+     </a>
+   </li>
+ </ul>
+    
+{% endblock %}   

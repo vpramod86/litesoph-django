@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+
+<h1> LITESOPH GitHub Repository</h1>
+   <p>
+      All the codes/tools can be downloaded from our GitHub page. The link for the same is given below: <br>
+      <a href="https://github.com/LITESOPH/litesoph" target="_blanck">LITESOPH GitHub Page</a>
+   </p>     
+      
+
+
+   <h2>A Detailed Description of Tools </h2>
+
+   <!-- Visualization part -->
+   <h3> <b>Visualization</b></h3>  
+     <p>-------A Python Module to cature the dynamics from a set of cube files----</p>
+     <div>Many interesting evolving phenamena from simulations like TDDFT can be visualised by storing the observable like time dependent induced charge density in cube format and playing it in the form of a vedio. Facts like large number of state involved in the calculation, plus long propagation time, large system size makes it impossible for researchers to explore this data using conventional visualization softwares as they requires each cube files to be opened and visualise manually. <br> <br>       
+        To over come this issue some visualization softwares like vmd have facility for inbuilt scripting. We combined this feature of vmd with a 3D animation software Blender to capture the isosurface plots of a number of cube files and make a movie  out of it. In this manner the dynamics of the evolving simulation can be captured.</div>
+
+    
+      
+
+{% endblock %}   
